@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <ImageView android:src="@drawable/conexion" android:id="@+id/imageView1" android:layout_alignParentTop="true" android:layout_width="match_parent" android:layout_height="100dip"></ImageView>
+    <TextView android:layout_height="wrap_content" android:layout_below="@+id/imageView1" android:id="@+id/textView1" android:layout_alignLeft="@+id/imageView1" android:layout_width="match_parent" android:text=" Host ip/ Direccion :" android:gravity="center"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_below="@+id/textView1" android:layout_alignLeft="@+id/textView1" android:layout_alignRight="@+id/textView1" android:layout_width="wrap_content" android:id="@+id/host"></EditText>
+    <TextView android:layout_height="wrap_content" android:layout_below="@+id/host" android:id="@+id/textView3" android:layout_alignRight="@+id/host" android:layout_width="160dip" android:text="Tiempo(seg):" android:gravity="center"></TextView>
+    <Spinner android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/spinner1" android:layout_below="@+id/textView3" android:layout_alignLeft="@+id/textView3" android:layout_alignRight="@+id/textView3"></Spinner>
+    <TextView android:layout_height="wrap_content" android:layout_below="@+id/host" android:id="@+id/textView2" android:layout_alignLeft="@+id/host" android:layout_width="160dip" android:text="Puerto:" android:typeface="normal" android:gravity="center_horizontal"></TextView>
+    <EditText android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_below="@+id/textView2" android:layout_alignLeft="@+id/textView2" android:layout_alignRight="@+id/textView2" android:id="@+id/widget29"></EditText>
+    <Button android:layout_height="wrap_content" android:layout_below="@+id/widget29" android:layout_alignLeft="@+id/widget29" android:id="@+id/probar" android:text="Probar Conexion" android:layout_width="320dip"></Button>
+    <TextView android:layout_height="wrap_content" android:layout_below="@+id/probar" android:layout_alignLeft="@+id/probar" android:layout_width="match_parent" android:id="@+id/infoconex" android:text="Conexion..." android:layout_marginLeft="20dip" android:layout_marginRight="20dip"></TextView>
+    <Button android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_width="match_parent" android:text="Volver" android:id="@+id/volver"></Button>
+</RelativeLayout>

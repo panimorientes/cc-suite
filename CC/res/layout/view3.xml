@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+android:id="@+id/widget0"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+xmlns:android="http://schemas.android.com/apk/res/android"
+>
+    <ImageView android:src="@drawable/icon" android:layout_alignParentTop="true" android:layout_width="match_parent" android:layout_height="200dip" android:id="@+id/image1"></ImageView>
+    <ImageView android:src="@drawable/icon" android:layout_alignParentBottom="true" android:layout_width="match_parent" android:layout_height="200dip" android:id="@+id/changes"></ImageView>
+
+</RelativeLayout>

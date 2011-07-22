@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ImageView android:src="@drawable/menu" android:id="@+id/imageView1" android:layout_alignParentTop="true" android:layout_width="320px" android:layout_height="100dip"></ImageView>
+    <ListView android:layout_width="match_parent" android:layout_below="@+id/imageView1" android:layout_alignLeft="@+id/imageView1" android:layout_alignRight="@+id/imageView1" android:id="@+id/Lista" android:layout_height="match_parent"></ListView>
+</RelativeLayout>
